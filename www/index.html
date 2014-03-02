@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
+  <title>CC Calc</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="rim">
+    <div id="keypad">
+      <div class="horizontal display">
+        <input id="displayPanel" type="text" value="0"/>
+      </div>
+      <div class="horizontal ">
+        <div id="keyC" data-rnc-tag="C" class="key control-key">C</div>
+        <div id="keyPlusMinus" class="key control-key">+/-</div>
+        <div id="keyPercent" class="key control-key">%</div>
+        <div id="keyDivide" class="key operation-key">/</div>
+      </div>
+      <div class="horizontal">
+        <div id="key7" data-rnc-tag="7" class="key">7</div>
+        <div id="key8" data-rnc-tag="8" class="key">8</div>
+        <div id="key9" data-rnc-tag="9" class="key">9</div>
+        <div id="keyMultiply" class="key operation-key">x</div>
+      </div>
+      <div class="horizontal">
+        <div id="key4" data-rnc-tag="4" class="key">4</div>
+        <div id="key5" data-rnc-tag="5" class="key">5</div>
+        <div id="key6" data-rnc-tag="6" class="key">6</div>
+        <div id="keySubtract" class="key operation-key">-</div>
+      </div>
+      <div class="horizontal">
+        <div id="key1" data-rnc-tag="1" class="key">1</div>
+        <div id="key2" data-rnc-tag="2" class="key">2</div>
+        <div id="key3" data-rnc-tag="3" class="key">3</div>
+        <div id="keyAdd" class="key operation-key">+</div>
+      </div>
+      <div class="horizontal">
+        <div id="key0" data-rnc-tag="0" class="key double-wide">0</div>
+        <div id="keyDecimalPoint" data-rnc-tag="." class="key">.</div>
+        <div id="keyEquals" class="key operation-key">=</div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/lib/jquery-2.0.3.min.js"></script>
+  <script type="text/javascript" src="js/system/calculator.js"></script>
+  <script type="text/javascript" src="js/system/ready.js"></script>
+  <script type="text/javascript" src="js/system/router.js"></script>
+
+</body>
+</html>

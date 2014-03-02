@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.tekadept.cc-calc" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Calc</name>
+    <description>
+        A PhoneGap Calculator
+    </description>
+    <author email="rockncoder@gmail.com" href="http://therockncoder.blogspot.com/">
+        Troy Miles the rockncoder
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

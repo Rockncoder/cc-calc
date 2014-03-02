@@ -1,0 +1,100 @@
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../font/SourceSansPro-ExtraLight.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #000;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    width: 100%;
+}
+
+#keypad {
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    margin: 15px 4px 4px 4px;
+}
+
+#keypad > div {
+    height: 75px;
+    font-size: 28px;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+}
+
+#keypad > div.display > input {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50pt;
+    height: 75px;
+    width: 98%;
+    text-align: right;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0;
+}
+
+#keypad > div > div {
+    padding-top: 15px;
+    border-right: 1px solid black;
+    width: 24.5%;
+    text-align: center;
+    background-color: #CFD0D2;
+    color: #272727;
+    display: inline-block;
+    height: 100%;
+    float:left;
+    /*-webkit-tap-highlight-color: rgba(0,0,0,0);*/
+}
+
+/*#keypad > div > div:active{*/
+    /*-webkit-transform:scale(0.9);*/
+    /*-moz-transform:scale(0.9);*/
+    /*-ms-transform:scale(0.9);*/
+    /*-o-transform:scale(0.9);*/
+    /*transform:scale(0.9);*/
+    /*-webkit-box-shadow:0px 0px 20px #FFF;*/
+    /*-moz-box-shadow:0px 0px 20px #FFF;*/
+    /*-o-box-shadow:0px 0px 20px #FFF;*/
+    /*box-shadow:0px 0px 20px #FFF;*/
+/*}*/
+
+#keypad > div.horizontal.display {
+    border: none;
+    margin-bottom: 20px;
+}
+
+
+#keypad > div > div.double-wide {
+    width: 49.1%;
+}
+
+.num-key {
+    background-color: #CFD0D2;
+}
+
+#keypad > div > div.control-key {
+    background-color: #C1C2C4;
+    color: #1D1D1D;
+}
+
+#keypad > div > div.operation-key {
+    background-color: #F57A12;
+    color: #fff;
+}
+
+
