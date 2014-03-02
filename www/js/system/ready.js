@@ -1,6 +1,4 @@
 
-
-/* create our namespace */
 var rnc = rnc || {};
 
 // The purpose of this method is to wait until both cordova deviceready and the jQuery document ready events have occurred

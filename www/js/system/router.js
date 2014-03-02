@@ -1,12 +1,10 @@
 
 var rnc = rnc || {};
 
-
 // wait for everything to be ready then run the demo code
 rnc.resolver.initialize(function () {
 
   console.log("starting our app");
-  rnc.calculator();
 
   if (typeof(StatusBar) !== "undefined") {
     console.log("Setting StatusBar");
@@ -15,4 +13,5 @@ rnc.resolver.initialize(function () {
   } else {
     console.log("NO StatusBar");
   }
+  rnc.calculator();
 });
