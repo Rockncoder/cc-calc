@@ -1,1 +1,5 @@
-This file was created by JetBrains WebStorm 6.0.2 for binding GitHub repository
+A PhoneGap calculator
+
+This one is stripped to the minimum. No jQuery Mobile, no Backbone, no ChocolateChip-UI.
+Just HTML, CSS, and JavaScript.
+
